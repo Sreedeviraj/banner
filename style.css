@@ -5,24 +5,36 @@
     background-position: center;
     height: 400px;
     color: white;
+
 }
 .nav_bar{
     position: absolute;
     top: 0;
-    width: 100%;
-    background-color: gray;
+    width: 97.5%;
+    background-color: rgba(0 0 0); */
     padding:10px 20px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
     align-items: center;
+    
 }
 .nav_bar a{
     color: white;
     text-decoration: none;
     margin: 0 10px;
     font-weight: bold;
+    gap: 2px;
 
 }
-.nav_bar a :hover{
+.nav_bar a:hover{
     text-decoration: underline;
+}
+.banner_heading{
+    position: absolute;
+    top: 50%;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-left: 300px;
+
 }
