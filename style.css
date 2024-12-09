@@ -1,0 +1,8 @@
+.banner{
+    position:relative;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYTRzLea_0zPoz0O7aO_fsZNjo8V5g5FEEpA&s');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+}
